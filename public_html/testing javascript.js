@@ -5,9 +5,34 @@
  */
 
 
-var num1 = 1;
-function add(add1)
+
+function getNum1()
 {
-    return add1 + 2;
+    return parseInt(document.getElementById("num").value);
 }
-//alert(add(n
+
+function getNum2()
+{
+    return parseInt(document.getElementById("num2").value);
+}
+
+function add()
+{
+    return getNum1() + getNum2();
+}
+
+
+function subtract()
+{
+    return getNum1() - getNum2();
+}
+
+function multiply()
+{
+    return getNum1() * getNum2();
+}
+
+function divide()
+{
+    return getNum1() / getNum2();
+}
