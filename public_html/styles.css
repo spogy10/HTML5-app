@@ -1,3 +1,18 @@
 /*comment*/
 
-body {color: red;}
+body {color: blue;}
+
+button {width: 100px;}
+
+.demo {color: red;}
+
+#num:focus{color: green;}
+
+#num2:focus{color: green;}
+
+#asdf3 {
+    border-style: ridge;
+    border-color: #660000;
+    border-width: thick;
+    box-shadow:#660000;
+}
