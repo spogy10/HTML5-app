@@ -5,7 +5,7 @@
  */
 
 
-
+//comment
 function getNum1()
 {
     return parseInt(document.getElementById("num").value);
