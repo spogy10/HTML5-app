@@ -1,10 +1,15 @@
 /*comment*/
 
-body {color: blue;}
+body {color: blue;
+        animation:myanimation 5s;}
 
-button {width: 100px;}
+button {width: 100px;
+}
 
-.demo {color: red;}
+.demo {
+    font-weight: bold;
+    color: red;
+}
 
 #num:focus{color: green;}
 
@@ -15,4 +20,10 @@ button {width: 100px;}
     border-color: #660000;
     border-width: thick;
     box-shadow:#660000;
+    animation: myanimation 5s;
+}
+
+@keyframe myanimation{
+    from {transform: rotate(0deg);}
+    to {transform: rotate(160deg);}
 }
